@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    .tick-list li::before {
+      content: '✓';
+      margin-right: 0.5rem;
+      color: slategray;
+    }
+  </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="flex min-h-screen bg-slate-900 justify-center items-center">
+
+        <div class="flex flex-col md:flex-row justify-center items-center my-6 space-y-6 md:space-y-0 md:space-x-4">
+
+            <!-- 100gb top div -->
+            <div class="border-8 rounded-xl border-slate-500 pb-4 md:pb-14 pt-4 justify-center items-center text-center text-white">
+            <h3 class="text-xs">BASIC</h3>
+            <div class="py-8 my-4">
+                <h1 class="font-serif text-3xl md:text-5xl">100GB</h1>
+                <p class="text-xs">$3.99/month</p>
+            </div>
+            <button class="p-2 px-6 border-2 border-violet-800 bg-slate-900 hover:bg-violet-800 rounded-xl duration-500">Purchase</button>
+            <div class="px-4 border-0 border-t-2 border-t-slate-500 items-center text-center mt-8 pt-8 md:pt-12">
+                <ul class="tick-list text-start">
+                    <li>100GB storage</li>
+                    <li>Option to add members</li>
+                    <li>Extra member benefits</li>
+                </ul>
+            </div>
+            </div>    
+            
+            <!--200gb center div  -->
+            <div class="border-8 rounded-xl border-violet-800 pb-8 md:pb-14 pt-4 justify-center items-center text-center text-white">
+            <h3 class="text-xs">STANDARD</h3>
+            <div class="py-8 my-4">
+                <h1 class="font-serif text-3xl md:text-5xl">200GB</h1>
+                <p class="text-xs">$3.99/month</p>
+            </div>
+            <button class="p-2 px-6 border-2 border-violet-800 bg-violet-800 rounded-xl duration-500">Purchase</button>
+            <div class="px-4 border-0 border-t-2 border-t-slate-500 items-center text-center mt-8 pt-8 md:pt-12">
+                <ul class="tick-list text-start">
+                    <li>100GB storage</li>
+                    <li>Option to add members</li>
+                    <li>Extra member benefits</li>
+                </ul>
+            </div>
+            </div>
+
+            <!-- 2tb bottom div -->
+            <div class="border-8 rounded-xl border-slate-800 pb-8 md:pb-14 pt-4 justify-center items-center text-center text-white">
+            <h3 class="text-xs">PREMIUM</h3>
+            <div class="py-8 my-4">
+                <h1 class="font-serif text-3xl md:text-5xl">2TB</h1>
+                <p class="text-xs">$3.99/month</p>
+            </div>
+            <button class="p-2 px-6 border-2 border-violet-800 bg-slate-900 hover:bg-violet-800 rounded-xl duration-500">Purchase</button>
+            <div class="px-4 border-0 border-t-2 border-t-slate-500 items-center text-center mt-8 pt-8 md:pt-12">
+                <ul class="tick-list text-start">
+                    <li>100GB storage</li>
+                    <li>Option to add members</li>
+                    <li>Extra member benefits</li>
+                </ul>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
